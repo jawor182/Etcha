@@ -1,0 +1,36 @@
+body{
+    font-family: 'Open Sans';
+    font-style: light italic;
+    font-weight: 100;
+    font-stretch: normal;
+}
+.titleclass{
+    text-align: center;
+    color: Blue;
+
+#UpperText{
+    color : darkblue  ;
+}}
+.cell{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(24, auto);
+    
+    
+}
+.mainContainer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
