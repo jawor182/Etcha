@@ -1,1 +1,1 @@
-# Etcha
+# Etcha a sketch is a project from the odin project. It is one of the projects that i had a chance to implement in my journey to become an software developer.
