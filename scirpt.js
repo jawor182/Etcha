@@ -1,14 +1,17 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.querySelector('.container');
     const colorGetter = document.getElementById('colorGetter');
     const resetBtn = document.querySelector('.resetBtn');
-  
+    let num = 576
+    squaredNum = Math.sqrt(num);
     let currentColor = 'black';
   
-    for (let i = 0; i < 576; i++) {
+    for (let i = 0; i < num; i++) {
       const cell = document.createElement('div');
       cell.classList.add('cell');
       cell.id = i;
+      container.style.gridTemplateColumns = `repeat(${squaredNum}, auto)`;
   
       cell.addEventListener('click', () => {
         cell.style.backgroundColor = currentColor;

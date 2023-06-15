@@ -1,15 +1,17 @@
 body{
     font-family: 'Open Sans';
-    font-style: light italic;
-    font-weight: 100;
+    font-style:  italic;
+    font-weight: 500;
     font-stretch: normal;
 }
 .titleclass{
     text-align: center;
-    color: Blue;
+    color: darkblue;
+    font-size: x-large;
 
 #UpperText{
     color : darkblue  ;
+     
 }}
 .cell{
     width: 20px;
@@ -24,7 +26,7 @@ body{
     align-content: center;
     justify-items: center;
     align-items: center;
-    grid-template-columns: repeat(24, auto);
+   
     
     
 }
@@ -38,3 +40,4 @@ body{
 
     background-color: black;
 }
+
