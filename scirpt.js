@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = document.querySelector('.container');
     const colorGetter = document.getElementById('colorGetter');
     const resetBtn = document.querySelector('.resetBtn');
-    let num = 576
-    squaredNum = Math.sqrt(num);
+    let inputNum = prompt("enter a number of squares between power of 10-30");
+    let num = Math.pow(inputNum, 2);
+    squaredNum = inputNum ;
     let currentColor = 'black';
   
     for (let i = 0; i < num; i++) {
